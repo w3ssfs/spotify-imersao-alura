@@ -7,21 +7,21 @@ body {
   top: 0;
   left: 0;
   bottom: 0;
-  padding: 12px;
+  padding: 8px;
   width: 300px;
 }
 
 .sidebar__navigation {
   background-color: #121212;
   border-radius: 8px;
-  padding: 16px 0 0 16px;
+  padding: 10px 0 0 10px;
 }
 
 .sidebar__navigation .logo {
   background: #121212;
   display: flex;
   border-radius: 8px;
-  padding: 16px 0 0 16px;
+  padding: 14px 0 0 14px;
 }
 
 .sidebar__navigation .logo img {
@@ -36,6 +36,9 @@ body {
 .sidebar nav ul li {
   padding: 10px 0;
 }
+.sidebar nav ul li .ini {
+  margin-right: 10px;
+}
 
 .sidebar nav ul li a {
   text-decoration: none;
@@ -43,6 +46,11 @@ body {
   font-weight: 600;
   font-size: 14px;
   font-family: "DM Sans", sans-serif;
+  transition: all 0.35s ease;
+}
+
+.sidebar nav ul li a:hover {
+  color: #fff;
 }
 
 .library {
@@ -52,7 +60,7 @@ body {
   color: #b3b3b3;
   font-weight: 600;
   font-size: 14px;
-  margin-top: 10px;
+  margin-top: 8px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -65,9 +73,10 @@ body {
 
 .library .library__contents__button {
   margin-right: 10px;
+  margin-left: 5px;
   background-color: transparent;
   border: 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 700;
   font-family: "DM Sans", sans-serif;
   text-align: center;
@@ -77,18 +86,35 @@ body {
   display: flex;
   justify-content: space-around;
   cursor: pointer;
+  transition: all 0.35s ease;
+}
+.library .library__contents__button:hover {
+  color: #fff;
 }
 
 .library .library__contents__button .fa {
   font-size: 20px;
-  margin-right: 10px;
+  margin-right: 8px;
   font-weight: 600;
   padding-right: 8px;
 }
 
 .library .library__contents .fa-plus {
-  margin: 24px 10px;
+  margin: 14px 10px;
   color: #b3b3b3;
+  transition: all 0.2s ease;
+  border: 0;
+  text-decoration: none;
+  text-transform: none;
+  background-color: #121212;
+  border: 0;
+  border-radius: 50px;
+  padding: 10px;
+}
+.library .library__contents .fa-plus:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #161616e8;
 }
 
 .section_playlist {
@@ -143,6 +169,7 @@ body {
 
 .sidebar .cookies {
   margin: 25px 20px;
+  font-family: "DM Sans", sans-serif;
 }
 
 .sidebar .cookies a {
@@ -168,4 +195,14 @@ body {
   margin: 8px;
   padding: 8px;
   border-radius: 20px;
+  transition: all 0.2s ease;
+}
+
+.languages .languages__button:hover {
+  transform: scale(1.03);
+  border: 1px solid #fff;
+}
+
+footer {
+  color: white;
 }
