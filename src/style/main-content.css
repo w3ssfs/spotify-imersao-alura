@@ -14,7 +14,7 @@
   padding: 16px;
   margin: 10px;
   border-radius: 8px;
-  border-color: #121212;
+  background-color: #121212;
 }
 
 .header__navigation .navigation {
@@ -80,6 +80,7 @@
 
 .header__login .subscribe {
   color: var(--color-brown-c);
+  border: none;
   font-size: 16px;
   font-weight: 700;
   background-color: transparent;
