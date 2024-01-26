@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./src/style/vars.css" />
     <link rel="stylesheet" href="./src/style/main-content.css" />
     <link rel="stylesheet" href="./src/style/sidebar-footer.css" />
+    <link rel="stylesheet" href="./src/style/media-queries.css" />
 
     <link
       rel="stylesheet"
@@ -64,7 +65,36 @@
             </button>
           </div>
         </section>
+        <section class="section_playlist">
+          <div class="section_playlist__content">
+            <span class="text title">Que tal seguir um podcast novo?</span>
+            <span class="text subtitle"
+              >Avisaremos você sobre novos episódios.</span
+            >
+            <button class="section_playlist__button">
+              <span>Explore podcasts</span>
+            </button>
+          </div>
+        </section>
         <div class="cookies">
+          <div class="cookies_prop">
+            <a href="">Legal</a>
+            <a href="">Centro de Privacidade</a>
+          </div>
+          <div class="cookies_prop">
+            <a href="">Política de Privacidade</a>
+            <a href="">Cookies</a>
+          </div>
+          <div class="cookies_prop">
+            <a href="">Sobre anúncios</a>
+            <a href="">Acessibilidade</a>
+          </div>
+          <div class="cookies_prop">
+            <a href="">Notice at Collection</a>
+            <a href="">Your Privacy Choice</a>
+          </div>
+        </div>
+        <div class="cookies__tit">
           <a href="">Cookies</a>
         </div>
         <div class="languages">
@@ -107,6 +137,161 @@
             <button class="login">Entrar</button>
           </div>
         </nav>
+
+        <!-- PLAYLIST -->
+        <div class="playlist-container">
+          <div id="result-playlists">
+            <div class="playlist">
+              <h1 id="greeting"></h1>
+              <h2 class="session">Navegar por todas as seções</h2>
+            </div>
+
+            <!-- LIST ITEM 1 -->
+            <div class="offer_scroll-container">
+              <div class="offer__list">
+                <section class="offer__list-item">
+                  <!-- CARD 1 -->
+                  <a href="" class="cards">
+                    <div class="cards card1">
+                      <img src="./src/assets/playlist/1.jpeg" alt="" />
+                      <span>Boas festas</span>
+                    </div>
+                  </a>
+
+                  <!-- CARD 2 -->
+                  <a href="" class="cards">
+                    <div class="cards card2">
+                      <img src="./src/assets/playlist/2.png" alt="" />
+                      <span>Boas festas</span>
+                    </div>
+                  </a>
+
+                  <!-- CARD 3 -->
+                  <a href="" class="cards">
+                    <div class="cards card3">
+                      <img src="./src/assets/playlist/3.jpeg" alt="" />
+                      <span>Boas festas</span>
+                    </div>
+                  </a>
+
+                  <!-- CARD 4 -->
+                  <a href="" class="cards">
+                    <div class="cards card4">
+                      <img src="./src/assets/playlist/4.jpeg" alt="" />
+                      <span>Boas festas</span>
+                    </div>
+                  </a>
+
+                  <!-- CARD 5 -->
+                  <a href="" class="cards">
+                    <div class="cards card5">
+                      <img src="./src/assets/playlist/5.jpeg" alt="" />
+                      <span>Boas festas</span>
+                    </div>
+                  </a>
+
+                  <!-- CARD 6 -->
+                  <a href="" class="cards">
+                    <div class="cards card6">
+                      <img src="./src/assets/playlist/6.jpeg" alt="" />
+                      <span>Boas festas</span>
+                    </div>
+                  </a>
+
+                  <!-- CARD 7 -->
+                  <a href="" class="cards">
+                    <div class="cards card7">
+                      <img src="./src/assets/playlist/7.jpeg" alt="" />
+                      <span>Boas festas</span>
+                    </div>
+                  </a>
+
+                  <!-- CARD 8 -->
+                  <a href="" class="cards">
+                    <div class="cards card8">
+                      <img src="./src/assets/playlist/8.jpeg" alt="" />
+                      <span>Boas festas</span>
+                    </div>
+                  </a>
+
+                  <!-- CARD 9 -->
+                  <a href="" class="cards">
+                    <div class="cards card9">
+                      <img src="./src/assets/playlist/9.jpeg" alt="" />
+                      <span>Boas festas</span>
+                    </div>
+                  </a>
+
+                  <!-- CARD 10 -->
+                  <a href="" class="cards">
+                    <div class="cards card10">
+                      <img src="./src/assets/playlist/10.jpeg" alt="" />
+                      <span>Boas festas</span>
+                    </div>
+                  </a>
+
+                  <!-- CARD 11 -->
+                  <a href="" class="cards">
+                    <div class="cards card11">
+                      <img src="./src/assets/playlist/11.jpeg" alt="" />
+                      <span>Boas festas</span>
+                    </div>
+                  </a>
+
+                  <!-- CARD 12 -->
+                  <a href="" class="cards">
+                    <div class="cards card12">
+                      <img src="./src/assets/playlist/12.jpeg" alt="" />
+                      <span>Boas festas</span>
+                    </div>
+                  </a>
+
+                  <!-- CARD 13-->
+                  <a href="" class="cards">
+                    <div class="cards card13">
+                      <img src="./src/assets/playlist/13.jpeg" alt="" />
+                      <span>Boas </span>
+                    </div>
+                  </a>
+
+                  <!-- CARD 14 -->
+                  <a href="" class="cards">
+                    <div class="cards card14">
+                      <img src="./src/assets/playlist/14.jpeg" alt="" />
+                      <span>Boas festas</span>
+                    </div>
+                  </a>
+
+                  <!-- CARD 15 -->
+                  <a href="" class="cards">
+                    <div class="cards card15">
+                      <img src="./src/assets/playlist/15.jpeg" alt="" />
+                      <span>Boas festas</span>
+                    </div>
+                  </a>
+
+                  <div id="result-artist" class="hidden">
+                    <div class="grid-container">
+                      <div class="artist-card">
+                        <div class="card-img">
+                          <img id="artist-img" class="artist-img" />
+                          <div class="play">
+                            <span class="fa fa-solid fa-play"></span>
+                          </div>
+                        </div>
+                        <div class="card-text">
+                          <a href="" title="Foo Fighters" class="vst"></a>
+                          <span class="artist-name" id="artist-name"></span>
+                          <span class="artist-categorie">Artista</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
     <footer class="disclaimer-premium">
