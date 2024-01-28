@@ -1,6 +1,6 @@
 <h1>Imersão Alura</h1>
 
-Imersão alura 2024 - Projeto clone spotify
+Imersão alura 2024 - FRONT-END clone spotify
 
 #ImersãoFrontEnd
 #Alura
